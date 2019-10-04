@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+<title>Table1</title>
+<style>
+p{color :	#E9967A }
+ div { border: 1px solid; }
+ .table1{
+display: grid;
+grid-template-rows: 2em 2em 2em 2em 2em 2em 2em;
+grid-template-areas:
+"a1 a1 a1 a1 a1 a1 a1"
+"a2 a2 a2 a2 a2 a2 b1"
+"a3 a3 a3 a3 a3 b2 b1"
+"a4 a4 a4 a4 b3 b2 b1"
+"a5 a5 a5 b4 b3 b2 b1"
+"a6 a6 b5 b4 b3 b2 b1"
+"a7 b6 b5 b4 b3 b2 b1";
+}
+.table2{
+  display: grid;
+  grid-template-rows: 2em 2em 2em 2em 2em 2em 2em;
+  grid-template-areas:
+  "a1 a1 a1 a1 a1 a1 b1"
+  "a2 a2 a2 a2 a2 b2 b1"
+  "a3 a3 a3 a3 b3 b2 b1"
+  "a4 a4 a4 b4 b3 b2 b1"
+  "a5 a5 b5 b4 b3 b2 b1"
+  "a6 b6 b5 b4 b3 b2 b1"
+  "a7 b6 b5 b4 b3 b2 b1";
+}
+.table3{
+  display: grid;
+  grid-template-rows: 2em 2em 2em 2em 2em 2em 2em;
+  grid-template-areas:
+  "a1_1 a2_1 a3_1 a4_1 a5_1 a6_1 a7_1"
+  "a1_2 a2_1 a3_2 a4_1 a5_2 a6_1 a7_2"
+  "a1_2 a2_3 a3_2 a4_3 a5_2 a6_3 a7_2"
+  "a1_4 a2_3 a3_4 a4_3 a5_4 a6_3 a7_4"
+  "a1_4 a2_5 a3_4 a4_5 a5_4 a6_5 a7_4"
+  "a1_6 a2_5 a3_6 a4_5 a5_6 a6_5 a7_6"
+  "a1_6 a2_7 a3_6 a4_7 a5_6 a6_7 a7_6";
+}
+.table4{
+  display: grid;
+  grid-template-rows: 2em 2em 2em 2em 2em 2em 2em;
+  grid-template-areas:
+      "b1_1 b1_1  b1_1  b1_2 b1_2  b1_2  b1 "
+      "b2 b2_1 b2_1  b2_1  b2_2 b2_2  b2_2"
+      "b3_1 b3_1 b3_2  b3_2  b3_2 b3_3  b3_3"
+      "b4_1 b4_1  b4_1  b4_2 b4_2  b4_2  b4 "
+      "b5 b5_1 b5_1  b5_1  b5_2 b5_2  b5_2"
+      "b6_1 b6_1 b6_2  b6_2  b6_2 b6_3  b6_3"
+      "b7_1 b7_1  b7_1  b7_2 b7_2  b7_2 b7 ";
+}
+</style>
+</head>
+<p> first table</p>
+<p> </p>
+<span class="table1">
+<div style="grid-area: a1"> a1 </div>
+<div style="grid-area: a2"> a2 </div>
+<div style="grid-area: a3"> a3 </div>
+<div style="grid-area: a4"> a4 </div>
+<div style="grid-area: a5"> a5 </div>
+<div style="grid-area: a6"> a6 </div>
+<div style="grid-area: a7"> a7 </div>
+<div style="grid-area: b1"> b1 </div>
+<div style="grid-area: b2"> b2 </div>
+<div style="grid-area: b3"> b3 </div>
+<div style="grid-area: b4"> b4 </div>
+<div style="grid-area: b5"> b5 </div>
+<div style="grid-area: b6"> b6 </div>
+</span>
+<p> </p>
+<p> second table</p>
+<p> </p>
+<span class="table2">
+  <div style="grid-area: a1"> a1 </div>
+  <div style="grid-area: a2"> a2 </div>
+  <div style="grid-area: a3"> a3 </div>
+  <div style="grid-area: a4"> a4 </div>
+  <div style="grid-area: a5"> a5 </div>
+  <div style="grid-area: a6"> a6 </div>
+  <div style="grid-area: a7"> a7 </div>
+  <div style="grid-area: b1"> b1 </div>
+  <div style="grid-area: b2"> b2 </div>
+  <div style="grid-area: b3"> b3 </div>
+  <div style="grid-area: b4"> b4 </div>
+  <div style="grid-area: b5"> b5 </div>
+  <div style="grid-area: b6"> b6 </div>
+
+</span>
+<p> </p>
+<p> third table</p>
+<p> </p>
+<span class="table3">
+  <div style="grid-area: a1_1">  </div>
+  <div style="grid-area: a2_1">  </div>
+  <div style="grid-area: a3_1">  </div>
+  <div style="grid-area: a4_1">  </div>
+  <div style="grid-area: a5_1">  </div>
+  <div style="grid-area: a6_1">  </div>
+  <div style="grid-area: a7_1">  </div>
+  <div style="grid-area: a1_2">  </div>
+  <div style="grid-area: a1_4">  </div>
+  <div style="grid-area: a1_6">  </div>
+  <div style="grid-area: a2_3">  </div>
+  <div style="grid-area: a2_5">  </div>
+  <div style="grid-area: a2_7">  </div>
+  <div style="grid-area: a3_2">  </div>
+  <div style="grid-area: a3_4">  </div>
+  <div style="grid-area: a3_6">  </div>
+  <div style="grid-area: a4_3">  </div>
+  <div style="grid-area: a4_5">  </div>
+  <div style="grid-area: a4_7">  </div>
+  <div style="grid-area: a5_2">  </div>
+  <div style="grid-area: a5_4">  </div>
+  <div style="grid-area: a5_6">  </div>
+  <div style="grid-area: a6_3">  </div>
+  <div style="grid-area: a6_5">  </div>
+  <div style="grid-area: a6_7">  </div>
+  <div style="grid-area: a7_2">  </div>
+  <div style="grid-area: a7_4">  </div>
+  <div style="grid-area: a7_6">  </div>
+
+</span>
+<p> </p>
+<p> fourth table</p>
+<p> </p>
+<span class="table4">
+  <div style="grid-area: b1_1">   </div>
+  <div style="grid-area: b1_2">   </div>
+  <div style="grid-area:b1 ">     </div>
+  <div style="grid-area: b2_1">   </div>
+  <div style="grid-area: b2_2">    </div>
+  <div style="grid-area:b2 ">     </div>
+  <div style="grid-area: b3_1">     </div>
+  <div style="grid-area: b3_2">   </div>
+  <div style="grid-area:b3_3 ">   </div>
+  <div style="grid-area: b4_1">      </div>
+  <div style="grid-area: b4_2">    </div>
+  <div style="grid-area:b4 ">     </div>
+  <div style="grid-area: b5_1">      </div>
+  <div style="grid-area: b5_2">    </div>
+  <div style="grid-area:b5 ">     </div>
+  <div style="grid-area: b6_1">      </div>
+  <div style="grid-area: b6_2">    </div>
+  <div style="grid-area:b6_3 ">   </div>
+  <div style="grid-area: b7_1">    </div>
+  <div style="grid-area: b7_2">    </div>
+  <div style="grid-area:b7 ">     </div>
+</span>
+</html>
