@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node 4.html",
-    "test": "eslint 4.html",
-    "your-own-script": "echo npm"
+    "test": "npm run",
+    "lint": "eslint .",
+    "build": "index.js"
   },
   "repository": {
     "type": "git",
